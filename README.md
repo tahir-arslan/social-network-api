@@ -4,7 +4,7 @@
 ## Description
 In this back end application, a social network api is being replicated using MongoDB, Express.js, and the Mongoose ODM. API routes are run using a tool such as Insomnia.
 
-A user is able to create a new "account" by inputting a username and email and add friends. A total count automatically gets updated with each new friend being added. The user is also able to create a post to voice their thoughts, and their friends are able to react to it by adding their own comments. A count is automatically updated to keep track of how many comments a user's thought post has.
+A user is able to create a new "account" by inputting a username and email and add friends. A total count automatically gets updated with each new friend being added. The user is also able to create a post to voice their thoughts, and their friends are able to react to it by adding their own comments. A count is automatically updated to keep track of how many comments a user's thought post has. When a user is deleted, all thought posts associated with the user are also deleted.
 
 A [Project Showcase](https://drive.google.com/file/d/13-j7GVr7gEKV7Tp0_N_9JVFAh9Ttyjnh/view) is available to see how this application performs.
 
