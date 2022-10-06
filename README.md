@@ -47,7 +47,7 @@ Thoughts:
 {
 	"thoughtText": "enterTextHereMax280Chars",
 	"username": "enterUserNameHere"
-    "userId": "enterUserIdHere"
+	"userId": "enterUserIdHere"
 }
 ```
 - Update thought: `http://localhost:3001/api/thoughts/<THOUGHTID>` with `PUT` method
