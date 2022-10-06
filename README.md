@@ -57,8 +57,8 @@ Reactions:
 - Create new reaction: `http://localhost:3001/api/thoughts/<THOUGHTID>/reactions` with `POST` method with the following as the JSON body:
 ```
 {
-    "reactionBody": "enterTextHere",
-    "username": "enterUserNameHere"
+	"reactionBody": "enterTextHere",
+	"username": "enterUserNameHere"
 }
 ```
 - Delete reaction: `http://localhost:3001/api/thoughts/<THOUGHTID>/reactions/<REACTIONID>` with `DELETE` method
